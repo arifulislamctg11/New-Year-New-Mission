@@ -4,6 +4,9 @@
   padding: 0;
   font-family: Merriweather;
 }
+section {
+  margin-bottom: 120px;
+}
 
 /* header style goes here */
 
@@ -68,6 +71,7 @@ header {
   background-image: url("/images/Vectorrr.png");
   width: 1320px;
   margin: auto;
+  height: 600px;
 }
 .welcome-container {
   width: 642px;
@@ -95,4 +99,113 @@ header {
   font-weight: 700;
   text-transform: uppercase;
   margin-left: 32px;
+}
+
+img {
+  max-height: 560px;
+  margin: auto;
+}
+
+/* location section style goes here  */
+.location-container {
+  text-align: center;
+  margin: 120px auto;
+  width: 1320px;
+  height: 482px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  border-radius: 15px;
+}
+
+.location-container > p {
+  color: #070211;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 600;
+  padding-top: 100px;
+}
+
+.para-title {
+  color: #f00;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 600;
+}
+.btn-primary {
+  border: 0;
+  width: 170px;
+  height: 56px;
+  border-radius: 8px;
+  background: #f00;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: Inter;
+  margin-top: 64px;
+}
+
+.coming-soon {
+  width: 1320px;
+  margin: auto;
+}
+.coming-soon-container {
+  display: flex;
+  gap: 100px;
+}
+
+.celebration-image {
+  width: 334.844px;
+  height: 334.844px;
+  margin: auto;
+  padding: 20px;
+  border: solid 15px red;
+  border-radius: 50%;
+}
+
+.coming-soon-items {
+  margin-top: 113px;
+}
+.best-offer {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+.coming-soon-title {
+  color: #070211;
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
+.coming-soon-desc {
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 20px;
+  width: 430px;
+  /* margin-right: 50px; */
+}
+
+.twenty-twenty-four {
+  color: #f00;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.coming-soon-desc-last {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.happy-new-year-img {
+  width: 120px;
+  height: 120px;
+  flex-shrink: 0;
 }
