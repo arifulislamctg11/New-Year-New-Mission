@@ -68,7 +68,7 @@ header {
 /* welcome section style goes here  */
 .welcome {
   display: flex;
-  background-image: url("/images/Vectorrr.png");
+  background-image: url("./images/Vectorrr.png");
   width: 1320px;
   margin: auto;
   height: 600px;
@@ -204,8 +204,10 @@ img {
   margin-bottom: 20px;
 }
 
-.happy-new-year-img {
+.coming-soon > .happy-new-year-img {
   width: 120px;
   height: 120px;
   flex-shrink: 0;
 }
+
+/* holy day sales section styles goes here  */
