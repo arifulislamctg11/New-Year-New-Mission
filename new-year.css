@@ -7,14 +7,24 @@
 section {
   margin-bottom: 120px;
 }
+.header,
+.welcome,
+.location-container,
+.coming-soon,
+.holyday-sale,
+.porfolio,
+.news-letter,
+.footer-container {
+  width: 1320px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 /* header style goes here */
 
 header {
   background-image: url("./images/Banner-Image.png");
-
   background-color: aqua;
-  width: 1320px;
   height: 600px;
   text-align: center;
   color: white;
@@ -69,7 +79,6 @@ header {
 .welcome {
   display: flex;
   background-image: url("./images/Vectorrr.png");
-  width: 1320px;
   margin: auto;
   height: 600px;
 }
@@ -110,7 +119,7 @@ img {
 .location-container {
   text-align: center;
   margin: 120px auto;
-  width: 1320px;
+
   height: 482px;
   background: linear-gradient(
     180deg,
@@ -148,7 +157,6 @@ img {
 }
 
 .coming-soon {
-  width: 1320px;
   margin: auto;
 }
 .coming-soon-container {
@@ -168,21 +176,21 @@ img {
 .coming-soon-items {
   margin-top: 113px;
 }
-.best-offer {
+.row-title-first {
   color: #f00;
   font-family: Inter;
   font-size: 24px;
   font-weight: 500;
   margin-bottom: 15px;
 }
-.coming-soon-title {
+.row-title-second {
   color: #070211;
   font-size: 48px;
   font-weight: 900;
   margin-bottom: 20px;
 }
 
-.coming-soon-desc {
+.row-desc {
   color: rgba(7, 2, 17, 0.6);
   font-size: 20px;
   width: 430px;
@@ -211,3 +219,171 @@ img {
 }
 
 /* holy day sales section styles goes here  */
+.holyday-sale {
+  height: 930px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.holyday-sale-container > #holy-day-sale-title-first-row {
+  text-align: center;
+}
+
+.holy-day-sale-title-first {
+  color: #070211;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 15px;
+  margin-top: 130px;
+}
+.holy-day-sale-title-second {
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+  margin-bottom: 30px;
+}
+.text-red {
+  color: #f00;
+}
+.holy-day-sale-title-desc {
+  width: 1068px;
+  margin: auto;
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 70px;
+}
+#holy-day-sale-img-second-row {
+  position: relative;
+}
+.gift-box-img {
+  position: absolute;
+  z-index: 1;
+  top: 100px;
+}
+.fifty-per-disc-img {
+  position: absolute;
+  left: 700px;
+  z-index: 2;
+  top: 100px;
+}
+.girl-with-bags {
+  position: absolute;
+  right: 0;
+  z-index: 1;
+}
+.red-rectangle-img {
+  position: absolute;
+  top: 433px;
+  z-index: 0;
+}
+
+/* porfolio section styles goes here  */
+
+.porfolio-items {
+  /* display: flex; */
+  gap: 25px;
+}
+.portfolio-column {
+  display: list-item;
+  list-style-type: none;
+}
+.portfolio-item-img {
+  width: 414px;
+  height: 450px;
+  border-radius: 16px;
+  margin-bottom: 20px;
+  padding-right: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+.portfolio-item-img:hover {
+  transform: scale(1.05);
+}
+
+/* news letter styles goes here  */
+.news-letter {
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+  height: 616px;
+  text-align: center;
+}
+.email-icon {
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+.news-letter-tittle {
+  color: #070211;
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 22px;
+}
+.news-letter-desc {
+  width: 896px;
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+#email-input {
+  width: 438px;
+  height: 72px;
+  flex-shrink: 0;
+  border: 0;
+  border-radius: 50px 0px 0px 50px;
+  padding-left: 30px;
+
+  color: rgba(7, 2, 17, 0.3);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+}
+#sub-btn {
+  width: 210px;
+  height: 72px;
+  flex-shrink: 0;
+  border-radius: 0px 50px 50px 0px;
+  background: #f00;
+  border: 0;
+  color: #fff;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* footer style goes here  */
+.footer-text {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+.footer {
+  height: 609px;
+  background: #070211;
+}
+.footer-row-first,
+.footer-row-third {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-row-first > .footer-col {
+  margin-top: 120px;
+  margin-bottom: 50px;
+}
+.footer-row-second,
+.footer-row-third {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.social-media-icon {
+  margin-right: 25px;
+}
