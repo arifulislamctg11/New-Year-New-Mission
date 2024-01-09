@@ -11,7 +11,7 @@ section {
 /* header style goes here */
 
 header {
-  background-image: url("/images/Banner-Image.png");
+  background-image: url("./images/Banner-Image.png");
 
   background-color: aqua;
   width: 1320px;
