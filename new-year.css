@@ -387,3 +387,10 @@ img {
 .social-media-icon {
   margin-right: 25px;
 }
+
+#best-gift-desc {
+  width: 896px;
+  margin-bottom: 25px;
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 20px;
+}
